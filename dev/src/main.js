@@ -64,6 +64,18 @@ window.onload = function() {
 			}
 		})
 		spriteGroup.addChild(bear2);
+		
+		var label1 = new Label();
+		label1.x = 200;
+		label1.y = 2;
+		label1.text = 'intersect';
+		core.currentScene.addChild(label1);
+		
+		var label2 = new Label();
+		label2.x = 200;
+		label2.y = 66;
+		label2.text = 'within';
+		core.currentScene.addChild(label2);
 
 	};
 
