@@ -3,9 +3,14 @@ EnchantCollisionDemo
 
 enchant.js標準の衝突判定intersectとwithinの違いを説明するためのプログラムです。
 
-## ビルド環境
+## 動作確認
 
-リリース作業の単純化のため grunt を使用しています。
+dev/src/index.html をブラウザに表示してください。
+
+### ビルド環境
+
+9leapに投稿できるzipファイルを生成することができます。
+生成には **grunt** というツールを使用します。
 
 使用するgruntのバージョンは0.4系です。
 
@@ -18,10 +23,10 @@ enchant.js標準の衝突判定intersectとwithinの違いを説明するため�
 
 Windows環境ではコマンドラインで grunt.cmd と指定してください。
 
-gruntとだけタイプして実行しようとしてもエラーとなります。
+Windows環境では grunt とだけタイプして実行しようとしてもエラーとなります。
 
 
-## gruntの準備
+#### gruntの準備
 
 なおgruntを使用するには node.js (v0.8.20以降)を先に導入する必要があります。
 
